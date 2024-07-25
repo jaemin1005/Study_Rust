@@ -57,3 +57,7 @@ fn read_username_from_file_3() -> Result<String, io::Error> {
 
     Ok(userName)
 }
+
+fn last_char_of_first_line(text: &str) -> Option<char> {
+    text.lines().next()?.chars().last()
+}
