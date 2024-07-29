@@ -1,0 +1,7 @@
+[package]
+name = "trait_test_main"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+trait_test = { path = "../trait_test" }
